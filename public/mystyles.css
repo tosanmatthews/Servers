@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,300);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+
+a{
+  text-decoration: none;
+  color: black;
+ 
+  padding: 10px;
+}
+
+header h2{
+  text-transform: lowercase;
+}
+
+header{background-color: white;
+ 
+}
+
+
+#logo{
+  color:#000;
+  font-style:bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+ 
+}
+
+.headline{
+  color: #000;
+  font-size:24px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+h1{
+  color: silver;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+h2{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+ 
+}
+
+a:hover{ 
+  color: grey;
+  text-decoration: underline;
+}
+
+
+.biotext{
+  align:center;
+  font-family:'Josefin Sans', sans-serif;
+  margin-left:200px;
+  margin-right:200px;
+  font-size: 18px;
+}
+
+.piccap{
+  font-family:'Josefin Sans',sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 18px;
+}
+
+.links{
+  align:center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+}
+#pic{
+ margin: 20px auto;
+  width: 344px;
+}
+#slinks{
+  width: 162px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#slinks a{
+  width: 50px;
+  height: 50px;
+  display: block;
+background-size: cover;
+  float:left;
+  margin: 2px;
+}
+
+#slinks a:first-child{
+  background-image: url(http://i.imgur.com/MVizVua.png);
+}
+
+#slinks a:first-child:hover{
+  background-image: url(http://i.imgur.com/3hkWn3r.png);
+}
+
+#slinks a:nth-child(2){
+  background-image: url(http://i.imgur.com/XBJJbDk.png);
+}
+
+#slinks a:nth-child(2):hover{
+  background-image: url(http://i.imgur.com/YR1kshy.png);
+}
+
