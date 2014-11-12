@@ -1,3 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
+
+body{
+  background-color: white;
+}
 
 a{
   text-decoration: none;
@@ -52,7 +59,6 @@ a:hover{
   font-family:'Josefin Sans', sans-serif;
   margin-left:200px;
   margin-right:200px;
-  magin-top:;
   font-size: 18px;
 }
 
@@ -83,12 +89,16 @@ a:hover{
   margin: 2px;
 }
 
-#pic a:first-child{
-  background-image:url(http://i.imgur.com/LSjMLcx.png)
-}
-
 #pic a:first-child:hover{
   background-image:url(http://i.imgur.com/zi7sKW2.png)
+}
+
+.one{
+  background-image:url(http://i.imgur.com/LSjMLcx.png) 
+}
+
+.two{
+   background-image:url(http://i.imgur.com/zi7sKW2.png)
 }
 
 #slinks{
